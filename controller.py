@@ -148,6 +148,7 @@ def do_graph(t, l_action, l_observation, ref, force_mag, l_prediction):
     ax3 = fig1.add_subplot(3,2,3)
     ax4 = fig1.add_subplot(3,2,4)
     ax5 = fig1.add_subplot(3,2,5)
+    #ax5.set_yscale("log")
 
     ax1.plot(t, l_observation[:,0])
     ax2.plot(t, l_observation[:,1])
