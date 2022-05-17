@@ -26,5 +26,4 @@ register(
 )
 
 ```
-
 1. Do `$pip install -e .`
