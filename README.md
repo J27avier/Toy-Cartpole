@@ -14,7 +14,7 @@ Repository for the Cart-Pole problem.
 * Implement RL agent (discrete and continuous actions)
 
 ## To run:
-1. Clone the [OpenAi Gym](https://github.com/openai/gym) repo
+1. Clone the [OpenAi Gym](https://github.com/openai/gym) repo into project directory (`Toy-CartPole/`)
 2. Add the `/gym/gym/envs/classic_control/cartpole_cont.py` file to the corresponding path
 3. Add to `/gym/gym/envs/__init__.py`
 ```
@@ -26,4 +26,4 @@ register(
 )
 
 ```
-4. Do `$pip install -e .`
+4. Do `$pip install -e .` inside `/gym/`
